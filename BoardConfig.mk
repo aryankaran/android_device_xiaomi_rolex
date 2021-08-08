@@ -15,5 +15,8 @@ TARGET_KERNEL_CONFIG := mi8937_defconfig
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-07-01
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 include vendor/xiaomi/rolex/BoardConfigVendor.mk
