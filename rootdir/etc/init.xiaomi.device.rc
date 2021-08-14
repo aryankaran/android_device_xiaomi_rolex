@@ -2,3 +2,11 @@
 on boot
     chown system system /sys/class/leds/infrared/transmit
     chown system system /sys/class/leds/infrared/brightness
+
+# Wi-Fi
+service wcnss-service /system/vendor/bin/wcnss_service_daisy
+    override
+    class main
+    user system
+    group system wifi radio
+    oneshot

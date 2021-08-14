@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from rolex-user 7.1.2 N2G47H V10.2.3.0.NCCMIXM release-keys
+# daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 
 # Camera modules
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
@@ -113,3 +114,6 @@ lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8937.so
 etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml
 etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a.xml
 etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a.xml
+
+# Wi-Fi - from daisy
+vendor/bin/wcnss_service:vendor/bin/wcnss_service_daisy

@@ -1,0 +1,2 @@
+# Executables
+/(vendor|system/vendor)/bin/wcnss_service_daisy		u:object_r:wcnss_service_exec:s0
