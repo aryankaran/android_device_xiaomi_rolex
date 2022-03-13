@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rolex.mk
+    $(LOCAL_DIR)/havoc_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rolex-user \
-    lineage_rolex-userdebug \
-    lineage_rolex-eng
+    havoc_rolex-user \
+    havoc_rolex-userdebug \
+    havoc_rolex-eng
