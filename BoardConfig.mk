@@ -20,3 +20,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
 include vendor/xiaomi/rolex/BoardConfigVendor.mk
+
+# Include system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
