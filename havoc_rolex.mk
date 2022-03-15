@@ -18,6 +18,8 @@ $(call inherit-product, device/xiaomi/rolex/device.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+HAVOC_BUILD_TYPE := Official
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := rolex
 PRODUCT_NAME := havoc_rolex
